@@ -1,0 +1,44 @@
+.header {
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    height: 100px;
+    z-index: 1;
+    transform: translate(-50%, 0);
+    &__name{
+        position: absolute;
+        width: 200px;
+        top: 50%;
+        left: 15px;
+        transform: translate(0, -50%);
+        color: #49515d;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat', Helvetica, sans-serif;
+        line-height: 1;
+        span{
+            color: #2196F3;
+        }
+    };
+    &__site-nav{
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translate(0, -50%);
+        ul{
+            display: flex;
+            li{
+                padding: 20px;
+                list-style-type: none;
+                a{
+                    text-align: center;
+                    font-size: 15px;
+                    line-height: 1px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+        }
+    };
+}

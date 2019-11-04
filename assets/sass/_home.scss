@@ -1,0 +1,57 @@
+.subpages {
+  position: relative;
+  padding-top: 100px;
+}
+
+.pt-page {
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.section-inner {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-around;
+    img{
+        max-width: 280px;
+        margin-bottom: -75px;
+        border: 3px solid #fff;
+        background-color: #fff;
+    }
+}
+
+.about-header {
+  position: relative;
+  background-color: #2196f3;
+  padding: 50px;
+  margin-bottom: 25px;
+  background-image: url("./assets/images/sp_main_bg.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.name-header {
+    color: #fff;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    h1 {
+        font-size: 54px;
+        font-weight: 700;
+        margin: 30px 0 0;
+    }
+    .title-header {
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+    }
+}
